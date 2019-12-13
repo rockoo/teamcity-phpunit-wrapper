@@ -1,0 +1,20 @@
+{
+  "name": "fantasyrock/teamcity-phpunit-wrapper",
+  "description": "A wrapper around PHPUnit using Teamcity service messages to report test progress to Teamcity UI.",
+  "type": "library",
+  "require": {
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fantasyrock\\Tcw\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Rok Nemet",
+      "email": "rok@roknemet.me"
+    }
+  ],
+  "minimum-stability": "dev"
+}
