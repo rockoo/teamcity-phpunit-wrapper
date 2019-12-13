@@ -1,6 +1,6 @@
 <?php namespace Fantasyrock\Tcw\Services;
 
-use Fantasyrock\Tcw\Contracts\AbstractTcTestLitener;
+use Fantasyrock\Tcw\Contracts\AbstractTcTestListener;
 use PHPUnit\Framework\Test;
 use PHPUnit\Framework\TestCase;
 use PHPUnit\Framework\TestSuite;
@@ -10,7 +10,7 @@ use SebastianBergmann\Comparator\ComparisonFailure;
 use PHPUnit\Framework\AssertionFailedError;
 use \Throwable;
 
-class TcTestListener extends AbstractTcTestLitener
+class TcTestListener extends AbstractTcTestListener
 {
     public function addWarning(Test $test, Warning $w, float $time): void
     {

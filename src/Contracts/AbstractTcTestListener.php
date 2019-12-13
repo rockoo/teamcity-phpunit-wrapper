@@ -4,7 +4,7 @@ use Fantasyrock\Tcw\Services\TcTestStates;
 use PHPUnit\Framework\TestListener as Listener;
 use ReflectionClass;
 
-abstract class AbstractTcTestLitener implements Listener
+abstract class AbstractTcTestListener implements Listener
 {
     protected static function getMessage(\Throwable $t)
     {
